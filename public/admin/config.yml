@@ -13,7 +13,7 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime", date_format: "DD-MM-YYYY", default: "" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "DD-MM-YYYY", time_format: false, format: "LLL", default: "" }
       - {
           label: "Tags",
           name: "tags",
