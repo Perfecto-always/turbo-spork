@@ -13,7 +13,7 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "string" }
+      - { label: "Date", name: "date", widget: "text" }
       - {
           label: "Tags",
           name: "tags",
