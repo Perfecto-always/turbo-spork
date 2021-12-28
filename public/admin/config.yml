@@ -19,7 +19,7 @@ collections:
           name: "tags",
           widget: "list"
           field: {
-                   label: "tag", name: "tag", widget: "string"
+                   label: "Tag", name: "tag", widget: "string"
                  }
         }
       - { label: "Draft", name: "draft", widget: "boolean", default: true }
