@@ -3,21 +3,26 @@ backend:
   branch: master
 
 # Media goes inside
-media_folder: 'public/static/images'
+media_folder: "public/static/images"
 
 # Collcection or Front Matter of a page
 collections:
-  - name: 'blogs'
-    label: 'Blog'
-    folder: 'data/blog'
+  - name: "blogs"
+    label: "Blog"
+    folder: "data/blog"
     create: true
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Date', name: 'date', widget: 'datetime' }
-      - { label: 'Tags', name: 'tags', widget: 'list' }
-      - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
-      - { label: 'Sumamry', name: 'summary', widget: 'string' }
-      - { label: 'Images', name: 'images', widget: 'list' }
-      - { label: 'Layout', name: 'layout', widget: 'string', default: 'PostLayout' }
-      - { label: 'Authors', name: 'authors', widget: 'lsit', default: ['default'] }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "DD-MM-YYYY", default: "" }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "list",
+          field: { name: "tag", label: "tag", widget: "string" },
+        }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - { label: "Sumamry", name: "summary", widget: "string" }
+      - { label: "Images", name: "images", widget: "image" }
+      - { label: "Layout", name: "layout", widget: "string", default: "PostLayout" }
+      - { label: "Authors", name: "authors", widget: "list", default: ["default"] }
+      - { label: "Body", name: "body", widget: "markdown" }
