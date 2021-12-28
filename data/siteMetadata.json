@@ -1,0 +1,16 @@
+{
+    "title": "Personal Blog",
+    "author": "Perfectó Briar",
+    "headerTitle": "Perfectó",
+    "description": "A blog created for personal blogging about me and the things I do.",
+    "language": "en-us",
+    "siteUrl": "",
+    "siteRepo": "",
+    "siteLogo": "/static/images/logo.png",
+    "image": "/static/images/avatar.png",
+    "socialBanner": "/static/images/twitter-card.png",
+    "email": "perfectobriar@gmail.com",
+    "github": "https://github.com/Perfecto-always",
+    "instagram": "https://instagram.com/Perfecto-always",
+    "locale": "en-US"
+}
