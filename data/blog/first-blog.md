@@ -1,4 +1,3 @@
-
 ---
 title: Sample .md file
 date: '2016-03-08'
