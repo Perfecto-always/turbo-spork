@@ -13,12 +13,11 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime", date_format: "DD-MM-YYYY", time_format: false, format: "LLL", default: "" }
+      - { label: "Date", name: "date", widget: "string" }
       - {
           label: "Tags",
           name: "tags",
-          widget: "list",
-          field: { name: "tag", label: "tag", widget: "string" },
+          widget: "list"
         }
       - { label: "Draft", name: "draft", widget: "boolean", default: true }
       - { label: "Sumamry", name: "summary", widget: "string" }
