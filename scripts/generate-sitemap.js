@@ -33,7 +33,7 @@ const siteMetadata = require("../data/siteMetadata");
                 }
                 return `
                         <url>
-                            <loc>${siteMetadata.siteUrl}${route}</loc>
+                            <loc>${window.location.href}${siteMetadata.siteUrl}${route}</loc>
                         </url>
                     `;
               })
