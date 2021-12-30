@@ -6,13 +6,6 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="icon" type="image/png" href="/static/favicons/favicon.png" />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="/static/favicons/favicon-16x16.png"
-          />
-
           <meta name="msapplication-TileColor" content="#000000" />
           <meta name="theme-color" content="#000000" />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
