@@ -34,7 +34,7 @@ const siteMetadata = require("../data/siteMetadata");
                 return `
                         <url>
                             <loc>https://perfecto-briar.netlify.app${siteMetadata.siteUrl}${route}</loc>
-                            <xhtml:link rel=”alternate” hreflang=”en” href=”https://perfecto-briar.netlify.app${siteMetadata.siteUrl}${route}”/>
+                            <xhtml:link rel=”alternate” hreflang=”en” href=https://perfecto-briar.netlify.app${siteMetadata.siteUrl}${route} />
                         </url>
                     `;
               })
