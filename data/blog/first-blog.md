@@ -19,11 +19,8 @@ The **reason** for exit animation to not fire could be:
 * You might have forgot to even write an \`exit\`animation in the first place. But as you are reading this I doubt you not double checking it. You could also use \`variants\` for making it easy to manage complex animations.
 * Another reason could be not wrapping you component with `<AnimatePresence>`. It is necessary to wrap your component with it as it says on their [site](https://www.framer.com/docs/animate-presence/).
 
-  > <!--StartFragment-->
-  >
   > `AnimatePresence` allows components to animate out when they're removed from the React tree.
-  >
-  > <!--EndFragment-->
+ 
 * And finally, what happened to me was I was not having a \`motion\` tag as an immediate child of \`AnimatePresence\`
 
 Below is the working code of animating Modal in React js. 
