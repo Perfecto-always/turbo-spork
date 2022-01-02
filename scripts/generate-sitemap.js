@@ -33,7 +33,7 @@ const siteMetadata = require("../data/siteMetadata");
                 }
                 return `
                         <url>
-                            <loc>https://perfecto-briar.netlify.app${siteMetadata.siteUrl}${route}</loc>
+                            <loc>${siteMetadata.siteUrl}${route}</loc>
                         </url>
                     `;
               })
