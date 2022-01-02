@@ -4,7 +4,7 @@
   "headerTitle": "Perfectó Briar",
   "description": "A blog created for personal blogging about me and the things I do.",
   "language": "en-us",
-  "siteUrl": "https://perfecto-briar.netlify.app/",
+  "siteUrl": "https://perfecto-briar.netlify.app",
   "siteRepo": "https://github.com/Perfecto-always/turbo-spork",
   "siteLogo": "/static/images/logo.png",
   "image": "/static/images/avatar.png",
