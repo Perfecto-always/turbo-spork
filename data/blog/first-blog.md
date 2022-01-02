@@ -16,7 +16,7 @@ The starting animation was working fine but I noticed that the unmounting animat
 
 The **reason** for exit animation to not fire could be: 
 
-* You might have forgot to even write an \`exit\`animation in the first place. But as you are reading this I doubt you not double checking it. You could also use \`variants\` for making it easy to manage complex animations.
+* You might have forgot to even write an \`exit\` animation in the first place. But as you are reading this I doubt you not double checking it. You could also use \`variants\` for making it easy to manage complex animations.
 * Another reason could be not wrapping you component with `<AnimatePresence>`. It is necessary to wrap your component with it as it says on their [site](https://www.framer.com/docs/animate-presence/).
 
   > `AnimatePresence` allows components to animate out when they're removed from the React tree.
@@ -92,4 +92,4 @@ function Modal({ open, close }) {
 export default Modal;
 ```
 
-Or here is the link of [codesandbox](https://codesandbox.io/s/animated-modal-0cr72) if you want to experiment with Framer Motion further.
+Or here is the link of [codesandbox](https://codesandbox.io/s/animated-modal-0cr72) if you want to experiment with Framer Motion further yourself.
