@@ -5,7 +5,7 @@ occupation: Full stack developer
 company: Praline
 email: perfectobriar@gmail.com
 github: https://github.com/Perfecto-always
-instagram: https://instagram.com/Perfecto-always
+instagram: https://www.instagram.com/perfecto_briar/
 ---
 
 Hello, I am Perfectó, a full stack developer.
