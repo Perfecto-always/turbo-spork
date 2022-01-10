@@ -20,8 +20,11 @@ class MyDocument extends Document {
             integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc"
             crossOrigin="anonymous"
           />
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2520533359037019"
-           crossorigin="anonymous"></script>
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2520533359037019"
+            crossOrigin="anonymous"
+          ></script>
           <Script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></Script>
           <Script src="/public/netlify.js"></Script>
         </Head>
